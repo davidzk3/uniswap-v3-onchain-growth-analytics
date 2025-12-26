@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: gold
+-- Purpose: Weekly retention by feature segment
+-- Horizon: Weeks 1 to 4

@@ -1,0 +1,6 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: bronze
+-- Purpose: LP activity proxy via NonfungiblePositionManager interactions
+-- Source: arbitrum.transactions
+-- Contract: 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
+-- Notes: Captures LP intent, not action type

@@ -1,0 +1,3 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: gold
+-- Purpose: Week 1 retention comparison by feature segment

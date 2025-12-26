@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: gold
+-- Purpose: Daily feature adoption metrics (swap vs LP wallets)
+-- Window: Rolling 30 days

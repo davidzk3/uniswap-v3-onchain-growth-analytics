@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: gold
+-- Purpose: Swap to LP conversion counts and rates
+-- Windows: 7d 30d and ever

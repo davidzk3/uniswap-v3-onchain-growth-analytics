@@ -1,0 +1,5 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: bronze
+-- Purpose: Raw Uniswap v3 swap events on Arbitrum
+-- Source: dex.trades
+-- Notes: Minimal filtering, no behavioral logic

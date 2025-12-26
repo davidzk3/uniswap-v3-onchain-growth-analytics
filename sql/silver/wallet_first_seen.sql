@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: silver
+-- Purpose: Compute first observed interaction per wallet
+-- Inputs: bronze swap events and LP activity proxy

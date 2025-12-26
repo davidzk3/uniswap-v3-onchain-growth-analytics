@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: gold
+-- Purpose: Wallet distribution across swap_only lp_only and both
+-- Window: Rolling 30 days

@@ -1,0 +1,4 @@
+-- Dune query ID: <ADD_ID_HERE>
+-- Layer: silver
+-- Purpose: Normalized wallet level event table (swap vs LP)
+-- Notes: Standardizes wallet and timestamp fields
