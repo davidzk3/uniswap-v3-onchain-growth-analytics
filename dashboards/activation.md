@@ -24,19 +24,19 @@ LP activations (30 days)
 
 - Count of wallets with LP activity in the last 30 days
 
-- Included in Screenshot: dashboards/dune\_screenshots/04\_conversion.png**
+- Included in Screenshot: dashboards/dune\_screenshots/04\_conversion.png
 
 
 
 Conversion rate tiles
 
-- conversion\_7d**
+- conversion\_7d
 
-- conversion\_30d**
+- conversion\_30d
 
-- conversion\_ever**
+- conversion\_ever
 
-- Screenshot: dashboards/dune\_screenshots/04\_conversion.png**
+- Screenshot: dashboards/dune\_screenshots/04\_conversion.png
 
 
 
