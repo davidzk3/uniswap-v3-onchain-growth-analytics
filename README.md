@@ -1,4 +1,4 @@
-\# Uniswap v3 onchain growth analytics (Arbitrum)
+# Uniswap v3 onchain growth analytics (Arbitrum)
 
 
 
@@ -16,35 +16,35 @@ models for staged transformations (bronze, silver, gold)
 
 
 
-\## What this answers
+## What this answers
 
 
 
 Feature adoption
 
-\- How many wallets swap vs provide liquidity over time
+- How many wallets swap vs provide liquidity over time
 
-\- What share of active wallets are LPs
+- What share of active wallets are LPs
 
 
 
 Conversion
 
-\- Of swap first wallets, how many become LPs within 7 days, 30 days, and ever
+- Of swap first wallets, how many become LPs within 7 days, 30 days, and ever
 
-\- How many LP activations happen in the last 30 days
+- How many LP activations happen in the last 30 days
 
 
 
 Retention
 
-\- Do wallets that use both swap and LP retain better than swap only or LP only
+- Do wallets that use both swap and LP retain better than swap only or LP only
 
-\- Week 1 retention comparison across segments
+- Week 1 retention comparison across segments
 
 
 
-\## Scope (V1)
+## Scope (V1)
 
 
 
@@ -62,9 +62,9 @@ Granularity: daily activity and weekly cohorts
 
 Time scope (V1)
 
-\- Adoption and conversion metrics use a rolling 30 day window
+- Adoption and conversion metrics use a rolling 30 day window
 
-\- Retention uses weekly cohorts with short horizon measurement (Weeks 1 to 4)
+- Retention uses weekly cohorts with short horizon measurement (Weeks 1 to 4)
 
 
 
@@ -72,57 +72,57 @@ These constraints are deliberate to keep queries fast, reproducible, and focused
 
 
 
-\## Data sources (Dune)
+## Data sources (Dune)
 
 
 
 Swaps
 
-\- dex.trades filtered to arbitrum, uniswap, version 3
+- dex.trades filtered to arbitrum, uniswap, version 3
 
 
 
 LP activity proxy
 
-\- arbitrum.transactions filtered to the Uniswap v3 NonfungiblePositionManager contract
+- arbitrum.transactions filtered to the Uniswap v3 NonfungiblePositionManager contract
 
-\- Contract: 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
+- Contract: 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
 
 
 
-\## Dashboard artifacts
+## Dashboard artifacts
 
 
 
 See the dashboards in the dashboards folder:
 
-\- dashboards/acquisition.md
+- dashboards/acquisition.md
 
-\- dashboards/activation.md
+- dashboards/activation.md
 
-\- dashboards/retention.md
+- dashboards/retention.md
 
 
 
 Screenshots of the V1 dashboard are stored in:
 
-\- dashboards/dune\_screenshots
+- dashboards/dune\_screenshots
 
 
 
-\## Definitions and assumptions
+## Definitions and assumptions
 
 
 
-\- docs/metrics.md
+- docs/metrics.md
 
-\- docs/methodology.md
+- docs/methodology.md
 
-\- docs/assumptions.md
+- docs/assumptions.md
 
 
 
-\## Explicitly out of scope (V1)
+## Explicitly out of scope (V1)
 
 
 
@@ -130,47 +130,47 @@ These are intentionally excluded from V1 and reserved for a more robust V2:
 
 
 
-\- Pool level LP analysis
+- Pool level LP analysis
 
-\- True mint burn collect decoding
+- True mint burn collect decoding
 
-\- Position level PnL and fee attribution
+- Position level PnL and fee attribution
 
-\- Fee APR estimation
+- Fee APR estimation
 
-\- Multi chain comparison
+- Multi chain comparison
 
-\- Parameterized dashboard filters
+- Parameterized dashboard filters
 
-\- Long horizon retention (90 days and beyond)
+- Long horizon retention (90 days and beyond)
 
 
 
-\## Planned V2 extensions
+## Planned V2 extensions
 
 
 
 Time
 
-\- Extend windows to 60, 90, and 180 days
+- Extend windows to 60, 90, and 180 days
 
-\- Multi cohort retention comparison and seasonality checks
+- Multi cohort retention comparison and seasonality checks
 
 
 
 Depth
 
-\- Decode LP lifecycle actions (mint, increase, decrease, collect)
+- Decode LP lifecycle actions (mint, increase, decrease, collect)
 
-\- Position aware retention and re activation
+- Position aware retention and re activation
 
-\- Fee collection behavior and realized yield proxies
+- Fee collection behavior and realized yield proxies
 
 
 
 Breadth
 
-\- Cross chain comparisons across Uniswap v3 deployments
+- Cross chain comparisons across Uniswap v3 deployments
 
 
 
