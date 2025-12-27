@@ -1,2 +1,4 @@
 *.md linguist-documentation
+docs/** linguist-documentation
+dashboards/** linguist-documentation
 *.sql linguist-language=SQL
